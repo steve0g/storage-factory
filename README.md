@@ -5,5 +5,6 @@ Practice exercises for the Storage Factory section of the Solidity Smart Contrac
 ## Exercises
 
 - `01-deploy-from-contract.sol` — A factory contract that deploys new counter contracts with `new` and keeps track of them in an array.
+- `05-factory-owner.sol` — A factory that creates stock contracts and passes the caller's address to the constructor, so each stock belongs to the right owner.
 
-More exercises (imports, ABI interaction, inheritance, factory with owner) will be added as I complete them.
+More exercises (imports, ABI interaction, inheritance) will be added as I complete them.
